@@ -2,8 +2,11 @@
 # SSH-Brute-Force-Lab---Internal-Audit
 
 COMMAND I USE
-tools = hydra
+tools = hydra,nmap
 
+#cek port yang kebuka 
+nmap -sT 127.0.0.1
+pasti yang keluar port 8022
 # 1. Cek format passlist (ada \r)
 cat -A passlist.txt
 
