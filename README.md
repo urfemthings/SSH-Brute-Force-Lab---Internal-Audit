@@ -31,3 +31,5 @@ password: pamulang123
 
 buka server local
 python -m http.server 8080
+
+disclaimer: For educational & authorized internal audit only on localhost / lab VM
