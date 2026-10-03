@@ -29,3 +29,5 @@ Result: Berhasil mendapatkan kredensial dalam ∼16 menit.
 login: u0_a2027
 password: pamulang123
 
+buka server local
+python -m http.server 8080
