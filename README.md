@@ -33,3 +33,6 @@ buka server local
 python -m http.server 8080
 
 disclaimer: For educational & authorized internal audit only on localhost / lab VM
+
+
+full walkthrough:https://youtu.be/Lqj2Y-KAsnc?si=nzdkv0wdla77k4hP
